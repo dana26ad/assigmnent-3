@@ -1,26 +1,33 @@
 header {
-    display: grid;
+   display: grid;
     grid-template-columns: 1fr 8fr;
     gap: 1.25rem; 
     justify-content: center;
     align-items: start;
+    
 
-     .logo{
-        width: 50%;
+     
+
+logo{
+        width: 100%;
         margin: 0 auto;
-    }
-   
+      
+}
+    
 
-    ul {
+     nav ul {
         list-style: none;
         padding: 0;
         margin: 0;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+       grid-template-columns: 1fr 1fr 1fr ;
         text-align: center;
+
+         
 
         li {
             border-left: 0.0625rem solid #ee87a9;
+           
         }
     }
 }

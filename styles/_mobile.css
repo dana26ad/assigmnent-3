@@ -1,4 +1,4 @@
-@media (max-width: 47.99rem) { /* עד 767px */
+@media (max-width: 47.99rem) { 
 
     .layout-wrapper {
         grid-template-columns: 1fr;
