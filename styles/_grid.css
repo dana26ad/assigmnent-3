@@ -1,9 +1,10 @@
 header {
    display: grid;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 1fr 6fr;
+   
     gap: 1.25rem; 
     justify-content: center;
-    align-items: start;
+    align-items:center;
     
 
      
@@ -11,17 +12,24 @@ header {
 logo{
         width: 100%;
         margin: 0 auto;
-      
+         display: flex;
+    align-items: center;
 }
+      
+
     
 
-     nav ul {
+    nav ul {
         list-style: none;
         padding: 0;
         margin: 0;
         display: grid;
        grid-template-columns: 1fr 1fr 1fr ;
         text-align: center;
+       
+
+
+
 
          
 

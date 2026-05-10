@@ -1,7 +1,7 @@
 * {
   
     box-sizing: border-box;
-      margin: 0;
+    margin: 0;
     padding: 0;
 }
 html {
@@ -10,21 +10,32 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+      margin: 0;
     padding: 0;
+    background-color: #f2f7ff;
+    color:#5d4037;
+  
     
 }
 header {
    
-
+    width: 100%;
     background-color: #adcffb;
-    color: white;
+    color: #ee87a9;
     position: sticky;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    border-bottom: 3px solid #637ede;
-     
-    
+    border-bottom: 3px solid #1E3A8A;
 }
+     
+ .logo {
+
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  margin:auto;
+    gap: 8px;
+}
+
  
 nav a {
   color: #ee87a9;
@@ -52,15 +63,7 @@ ul li:hover {
     0 0 1.875rem rgba(220, 120, 160, 0.7);
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
 
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
 
 
 .intro-section {
@@ -76,7 +79,7 @@ ul li:hover {
 
 .intro-section p {
     font-size: 1.2rem;
-    color: #555;
+    color: #5d4037;
 }
 
 .card {
@@ -220,6 +223,7 @@ ul li:hover {
     transition: 0.3s;
 
     cursor: pointer;
+   
 }
 
 .mini-card:hover {
@@ -238,7 +242,7 @@ ul li:hover {
 
     margin-bottom: 0.25rem;
 
-    color: #1a1855;
+    color: #5d4037;
 }
 
 .mini-card-info p {
