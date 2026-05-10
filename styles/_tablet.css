@@ -1,0 +1,28 @@
+@media (min-width: 48rem) and (max-width: 63.99rem) { 
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .layout-wrapper {
+        grid-template-columns: 1fr; 
+    }
+
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .featured-card {
+        grid-column: 1 / -1;
+    }
+
+    
+    .form-container {
+        width: 100%;
+    }
+     .mini-cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
