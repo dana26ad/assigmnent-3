@@ -26,6 +26,7 @@ header {
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     border-bottom: 3px solid #1E3A8A;
 }
+
      
  .logo {
 
@@ -207,30 +208,20 @@ ul li:hover {
 }
 .mini-card {
     background: #ffffff;
-
     padding: 1rem;
-
     border-radius: 12px;
-
     display: flex;
-
     align-items: center;
-
     gap: 1rem;
-
     box-shadow: 0 4px 12px rgba(26, 24, 85, 0.15);
-
     transition: 0.3s;
-
     cursor: pointer;
    
 }
 
 .mini-card:hover {
     transform: scale(1.03);
-
     box-shadow: 0 8px 20px rgba(26, 24, 85, 0.25);
-
     border-right: 4px solid #637ede;
 }
 .mini-card-icon {
@@ -239,14 +230,11 @@ ul li:hover {
 
 .mini-card-info h4 {
     font-size: 1rem;
-
     margin-bottom: 0.25rem;
-
-    color: #5d4037;
+    color: ;
 }
 
 .mini-card-info p {
     font-size: 0.85rem;
-
     color: #5d4037;
 }
