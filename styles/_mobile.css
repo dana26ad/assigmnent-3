@@ -1,0 +1,43 @@
+@media (max-width: 47.99rem) { /* עד 767px */
+
+    .layout-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+   
+    nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+
+        width: 100%;
+
+        background-color: #adcffb;
+
+        display: flex;
+        justify-content: space-around;
+
+        padding: 1rem 0;
+
+        z-index: 2000;
+
+        box-shadow: 0 -4px 12px rgba(26, 24, 85, 0.2);
+    }
+
+    nav a {
+        font-size: 0.875rem;
+        color: #1a1855;
+    }
+
+    nav a:hover {
+        color: #637ede;
+    }
+
+    body {
+        padding-bottom: 5rem;
+    }
+}

@@ -127,14 +127,17 @@ ul li:hover {
     border-radius: 12px;
     box-shadow: 0 6px 16px rgba(26, 24, 85, 0.15);
     padding: 1.2rem;
+    margin-top: 3rem;
+    
+    
 }
 
 .form-group input {
     border: 1px solid #adcffb;
     border-radius: 8px;
     font-family: inherit;
-
     transition: all 0.3s ease;
+    padding: 0.9rem 0.2rem;
 }
 
 
@@ -177,4 +180,32 @@ ul li:hover {
     color: #ffffff;
 
     text-align: center;
+}
+.cross-recommendations {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.cross-list {
+    list-style: none;
+
+    padding: 0;
+
+    display: grid;
+
+    gap: 0.75rem;
+
+    max-width: 40rem;
+
+    margin: 1rem auto 0;
+}
+
+.cross-list li {
+    background: #ffffff;
+
+    padding: 0.8rem;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 8px rgba(26, 24, 85, 0.1);
 }
