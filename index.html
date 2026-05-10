@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>קסם של חופשה</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body  dir="rtl">
+    <header>
+    <div class="logo">
+         קסם של חופשה
+    </div>
+
+    <nav>
+        <ul>
+       <li> <a href="#">דף הבית</a> </li>
+        <li> <a href="#">יעדים</a> </li>
+       <li><a href="#">צור קשר</a></li> 
+        <li> <a href="#">חייג</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <section class="layout-wrapper">
+        
+        <main class="content-area">
+            <section class="intro-section">
+                <h1>החופשה החלומית שלכם מתחילה כאן</h1>
+                <p>תכנון מסלול מותאם אישית.</p>
+            </section>
+
+            <section class="cards-grid">
+                
+    <article class="card featured-card">
+        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=800&q=80');"></div>
+        <section class="card-content">
+            <span class="tag">יעד מוביל</span>
+            <h2>לונדון</h2>
+            <p>עיר קלאסית עם שילוב של היסטוריה וחדשנות. תמצאו בה את הביג בן, ארמון בקינגהאם ואווירה אירופאית ייחודית.</p>
+        </section>
+    </article>
+
+    <article class="card">
+        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1549692520-acc6669e2f0c?auto=format&fit=crop&w=500&q=80');"></div>
+        <section class="card-content">
+            <h3>טוקיו</h3>
+            <p>שילוב מרתק בין מסורת עתיקה לטכנולוגיה מתקדמת. טוקיו, מקדשים ושווקים צבעוניים מחכים לכם.</p>
+        </section>
+    </article>
+
+    <article class="card">
+        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&fit=crop&w=500&q=80');"></div>
+        <section class="card-content">
+            <h3>ניו יורק</h3>
+            <p>העיר שלא ישנה לעולם. גורדי שחקים, טיימס סקוור וסנטרל פארק באווירה אורבנית עוצמתית.</p>
+        </section>
+    </article>
+
+    <article class="card">
+        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1526481280695-3c687fd5432c?auto=format&fit=crop&w=500&q=80');"></div>
+        <section class="card-content">
+            <h3>רומא</h3>
+            <p>עיר מלאה בהיסטוריה, אמנות ואוכל איטלקי מושלם. הקולוסיאום והרחובות העתיקים יוצרים חוויה בלתי נשכחת.</p>
+        </section>
+    </article>
+
+</section>
+</main>
+
+ <aside class="sidebar">
+            <section class="form-container">
+                <h2>בקשת הצעת מחיר</h2>
+                <p>מלאו את הפרטים ונרכיב לכם את המסלול המושלם:</p>
+                <br>
+                <form action="#" class="form-group">
+                     <label for="fullName" >
+                        <span>שם מלא:</span>
+                        <input type="text" id="fullName" placeholder="שם ושם משפחה" required minlength="2">
+                        </label>
+                    
+
+                     <label for="email" class="form-group">
+                        <span>דוא"ל:</span>
+                        <input type="email" id="email" placeholder="name@example.com" required>
+                     </label>
+
+                    
+                        <label for="travelers" class="form-group" >
+                        <span>מספר נוסעים:</span>
+                        <input type="number" id="travelers" min="1" max="20" required placeholder="1">
+                        </label>
+
+                    
+                        <label for="date" class="form-group">
+                        <span>תאריך יציאה מתוכנן:</span>
+                        <input type="date" id="date" required>
+                        </label>
+                    
+
+                        <label for="park" class="form-group">
+                            <span>פארק מועדף:</span>
+                             <div class="form-group">
+                       
+                            <span><input type="radio" name="park" value="magic" checked> ממלכת הקסם</span>
+                            <span><input type="radio" name="park" value="epcot"> אפקוט</span>
+                            <span><input type="radio" name="park" value="all"> הכל (Park Hopper)</span>
+                    </div>
+                        </label>
+                 
+                    
+                    <label for="confrim"class="form-group">
+                     <input type="checkbox" required name="confrim" id="confrim"> 
+                     <span> קראתי ואישרתי את תנאי הביטול</span>
+                    </label>
+
+                    <button type="submit">קבלו הצעה עכשיו</button>
+                </form>
+                 </section>
+        </aside>
+
+    </section>
+
+    <footer class="main-footer">
+        <p>כל הזכויות שמורות לסוכנות "קסם של חופשה" &copy; 2024</p>
+    </footer>
+
+</body>
+</html>
+
